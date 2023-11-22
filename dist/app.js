@@ -142,13 +142,13 @@
       this[globalName] = mainExports;
     }
   }
-})({"2ly9l":[function(require,module,exports) {
+})({"7j0CH":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = 50619;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "138b6a135baa4167";
+module.bundle.HMR_BUNDLE_ID = "f6c9730a8a60d273";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -574,9 +574,14 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     });
 }
 
-},{}],"igcvL":[function(require,module,exports) {
-alert("Hello world");
+},{}],"dVfCV":[function(require,module,exports) {
+// alert("Hello world");
+var _app2Js = require("./app2.js");
+console.log("It's finally working!!!");
 
-},{}]},["2ly9l","igcvL"], "igcvL", "parcelRequire00a4")
+},{"./app2.js":"hE7Yy"}],"hE7Yy":[function(require,module,exports) {
+console.log("And it is bundle from two files!");
+
+},{}]},["7j0CH","dVfCV"], "dVfCV", "parcelRequire00a4")
 
 //# sourceMappingURL=app.js.map

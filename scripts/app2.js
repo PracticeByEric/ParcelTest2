@@ -1,0 +1,1 @@
+console.log("And it is bundle from two files!");
